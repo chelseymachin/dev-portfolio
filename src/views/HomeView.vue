@@ -7,8 +7,8 @@
       <img src="../assets/dog-photo.jpg">
     </div>
     <div class="right-side container">
-      <h1>Hi!</h1>
       <h3>I'm Chelsey.</h3>
+      <p>A <em>Full-Stack Software Engineer</em> with a passion for creating performant, de-coupled front-end applications.</p>
     </div>
   </main>
 </template>
@@ -22,7 +22,7 @@ main {
   border-radius: 0 2rem 2rem 2rem;
 }
 
-img {
+.left-side img {
   width: 20rem;
   height: 20rem;
   align-self: center;
@@ -34,6 +34,22 @@ img {
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+
+.header-container img {
+  width: 64px;
+  height: 64px;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 4rem;
+  align-self: start;
 }
 
 </style>
