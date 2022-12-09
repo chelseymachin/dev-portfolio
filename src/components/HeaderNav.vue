@@ -24,10 +24,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 img {
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .router-link-active {

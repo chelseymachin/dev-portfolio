@@ -1,9 +1,8 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <main>
-    <div> made it to contact! </div>
+    <div>made it to contact!</div>
   </main>
 </template>
 

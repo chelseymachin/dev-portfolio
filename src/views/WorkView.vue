@@ -1,10 +1,17 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-
   <main>
-    <div> made it to work! </div>
+    <div>work</div>
   </main>
 </template>
 
+<style scoped>
+main {
+  min-height: 60vh;
+  padding: 2rem;
+  display: flex;
+  background-color: var(--dusty-coral);
+  border-radius: 2rem;
+}
+</style>
