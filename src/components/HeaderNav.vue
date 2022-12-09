@@ -35,6 +35,7 @@ img {
 .router-link-active {
   background-color: var(--dusty-coral);
   border-radius: 2rem 2rem 0 0;
+  box-shadow: 8px 8px 8px var(--deep-purple);
 }
 
 </style>

@@ -9,6 +9,24 @@
     <div class="right-side container">
       <h3>I'm Chelsey.</h3>
       <p>A <em>Full-Stack Software Engineer</em> with a passion for creating performant, de-coupled front-end applications.</p>
+      <p>
+        I'm currently working on a platform services team at <a href="https://www.jamf.com/" target="_blank">Jamf</a>, a leader in MDM solutions for Apple/iOS products.
+      </p>
+      <p>
+        Things I'm playing with currently include:
+      </p>
+        <ul>
+          <li>
+            Vue 3 + Vite + Pinia
+          </li>
+          <li>
+            Firebase
+          </li>
+          <li>
+            AWS Amplify
+          </li>
+        </ul>
+
     </div>
   </main>
 </template>
@@ -20,6 +38,7 @@ main {
   display: flex;
   background-color: var(--dusty-coral);
   border-radius: 0 2rem 2rem 2rem;
+  box-shadow: 8px 8px 8px var(--deep-purple);
 }
 
 .left-side img {
